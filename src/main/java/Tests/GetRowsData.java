@@ -15,7 +15,7 @@ public class GetRowsData extends BaseTest {
     @Test
     public void printRowPoints(){
         w3School = new W3SchoolPage(driver);
-
+        System.out.println(w3School.getPointsofRow());
     }
 
 }
