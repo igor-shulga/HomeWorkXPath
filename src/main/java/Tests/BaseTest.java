@@ -16,6 +16,7 @@ public class BaseTest  extends Assert{
     public void setUp() throws Exception {
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
     @After
